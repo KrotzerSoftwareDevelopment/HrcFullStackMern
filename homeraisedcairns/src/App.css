@@ -1,0 +1,678 @@
+/* Entire Style */
+
+@font-face {
+  font-family: 'Alatsi-Regular';
+  src: local('Alatsi-Regular'), url(./fonts/Alatsi-Regular.ttf) format('truetype');
+}
+.About {
+  -webkit-animation: fadeIn 400ms ease-in-out 500ms both;
+animation: fadeIn 400ms ease-in-out 500ms both;
+
+}
+@font-face {
+  font-family: 'Aclonica-Regular';
+  src: local('Aclonica-Regular'), url(./fonts/Aclonica-Regular.ttf) format('truetype');
+}
+#NaviBarStyle{
+  font-family: 'Aclonica-Regular';
+  font-weight: bolder;
+  
+}
+.rightSideNavi{
+  margin-right: 10vw;
+ 
+}
+#dropDownStyle{
+  text-align: center;
+  color: green;
+}
+/* .headerImageContainer{
+height: 20vh;
+} */
+.headerImage{
+  width: 50vw;
+  height: 60vh;
+  align-self: center;
+}
+.email{
+  background-color: ivory;
+}
+.Disclaimer{
+  text-align: center;
+  font-size: smaller;
+}
+table{
+  width: 50vw;
+}
+li {
+  list-style-type: none;
+  font-family: 'Alatsi-Regular';
+}
+.Carousel{
+  border-width: 1px;
+  border-color: green;
+  height: 50vh;
+  width: 50vh;
+  margin-left: 10vw;
+
+  margin-bottom: 4vh;
+}
+#puppyslideShow{
+  width: 50vw;
+  height: 50vh;
+}
+.PuppyPage{
+  font-family: 'Alatsi-Regular';
+  overflow: hidden;
+  overflow-y: scroll; 
+   padding-left: 4vw;
+   padding-right: 4vw;
+   bottom: 2vh;
+   margin-top: 15vh;
+   margin-bottom: 5vh;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   animation-name: slideinright;
+   animation-duration: 2s;
+   -webkit-animation: fadeIn 400ms ease-in-out 500ms both;
+   animation: fadeIn 400ms ease-in-out 500ms both;
+   height: 80vh;
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+   -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);  
+   border-radius: 5px;
+   background-color: ivory ;
+   border: none;
+   border-style: none;
+   border-color:none;
+}
+
+.homePageCardContainer{
+  font-family: 'Alatsi-Regular';
+  animation-name: slidedown;
+  animation-duration: 2s;
+  /* align-content: center; */
+  text-align: center;
+  margin-top: 35vh;
+  margin-bottom: 5vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  position: relative;
+  opacity: 80%;
+  background-color: white;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+/* .homePageCard{
+  position: relative;
+  opacity: 80%;
+  background-color: white;
+  width: 70vw;
+} */
+.reservation{
+  font-family: 'Alatsi-Regular';
+  font-weight: bolder;
+
+  color: green;
+  font-size: 20px;
+}
+.Title{
+  font-family: 'Alatsi-Regular';
+  font-weight: bolder;
+
+  color: green;
+  font-size: 3vh;
+
+}
+.homeText{
+  background-color: white;
+  margin-top: -0vh;
+}
+.PuppiesNavi{
+  position: fixed;
+}
+.AdminPageContainer{
+  font-family: 'Alatsi-Regular';
+  font-weight: bolder;
+  overflow-x: scroll;
+  overflow-y: scroll; 
+  padding-left: 4vw;
+  padding-right: 4vw;
+  scrollbar-face-color: none;
+  position: relative;
+  bottom: 2vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  animation-name: slideinright;
+  animation-duration: 2s;
+  -webkit-animation: fadeIn 400ms ease-in-out 500ms both;
+  animation: fadeIn 400ms ease-in-out 500ms both;
+  height: 80vh;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);  
+  border-radius: 5px;
+  background-color: ivory ;
+  border: none;
+  border-style: none;
+  border-color:none;
+}
+.PageContainer{
+  font-family: 'Alatsi-Regular';
+  font-weight: bolder;
+  overflow: hidden;
+  overflow-y: scroll; 
+  padding-left: 4vw;
+  padding-right: 4vw;
+  scrollbar-face-color: none;
+  position: relative;
+  bottom: 2vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  animation-name: slideinright;
+  animation-duration: 2s;
+  -webkit-animation: fadeIn 400ms ease-in-out 500ms both;
+  animation: fadeIn 400ms ease-in-out 500ms both;
+  height: 80vh;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);  
+  border-radius: 5px;
+  background-color: ivory ;
+  border: none;
+  border-style: none;
+  border-color:none;
+}
+
+#left-tabs-example{
+  position: sticky;
+}
+#submitbutton{
+  font-family: 'Alatsi-Regular';
+  background-color: green;
+  color: white;
+}
+.bgStyle{
+  position: absolute;
+  background-position: center;
+
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+/* .PuppyPage{
+  
+  margin-top: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  
+
+} */
+
+#puppySlideShow{
+  width: 50vw;
+  height: 50vh;
+}
+#puppyIconContainer{
+  /* width: 30vw;
+  height: 20vh; */
+}
+#puppyIcon{
+  overflow: hidden;
+  contain: content;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 2vw;
+}
+.icon{
+  height: 25vh;
+ 
+}
+
+#puppyiconInfo{
+  padding-top: 4vh;
+
+}
+.ContactContainer{
+  margin-top: 10vh;
+  animation-name: slideup;
+  animation-duration: s;
+}
+.GalleryContainer{
+  margin-top: 10vh;
+animation-duration: 2s;
+
+animation-name: slideinleft;
+  /* -webkit-animation: fadeIn 700ms ease-in-out 1s both;
+animation: fadeIn 700ms ease-in-out 1s both; */
+}
+@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.Page{
+   -webkit-animation: fadeIn 700ms ease-in-out 500ms both;
+animation: fadeIn 700ms ease-in-out 500ms both;
+  
+}
+.left{
+  float: left;;
+}
+.right{
+  float: right;
+}
+.naviPuppies{
+  position: fixed;
+}
+#AboutContent{
+  font-family: 'Alatsi-Regular';
+  font-weight: bolder;
+  
+  text-indent: 4vw;
+}
+#PageContent{
+  
+  padding-left: 4vw;
+  padding-right: 4vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: ivory;
+}
+.JumBg{
+  background-image: './assets/bg.png';
+}
+/*Page Header */
+h1{
+  font-family: 'Aclonica-Regular';
+  position: sticky;
+    text-align: center;
+    color: green;
+
+    border-width: 4px;
+    border-color: darkgreen;
+    
+    font-weight: bolder;
+    font-size: 5vh;
+}
+.contact{
+  background-color: ivory;
+}
+/*Intro Paragraph for page */
+.Intro{
+  align-content: center;
+  background-color: lightblue;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+.PuppyDetails{
+  width: 80vw;
+  margin-top: 10vh;
+
+ 
+  background-color: white;
+  margin-bottom: 10vw;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color: none;
+}
+/*Page Body*/
+/* .PageBody{
+  scroll-behavior: auto;
+  /* padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vw; */
+  /*background-color: white;
+  /* margin-bottom: 10vw; */
+  /* box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+/*background-color: none;
+} */
+/* Page Summary */
+.PageSum{
+background-color: lightseagreen;
+}
+.tabsnavi{
+  position: fixed;
+}
+
+
+/* Title for each pargraph */
+#Title{
+  font-family: 'Alatsi-Regular';
+  
+  font-size: 4vh;
+  font-weight: bolder;
+  color:green;
+  text-align: center;
+  
+}
+#subTitle{
+  font-size: 2vh;
+  font-weight: bolder;
+  color:green;
+  text-align: center;
+}
+ #PuppyHomeCard{
+   flex-direction: row;
+  animation-name: slideup;
+  animation-duration: 1s;
+  background-color: white;
+  height: 30vh;
+  margin-bottom: 10vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+.galleryContainer{
+  width: 100vw;
+}
+
+li {
+  font-family: Helvetica, sans-serif;
+  color: darkgreen;
+}
+.li{
+  font-family: Helvetica, sans-serif;
+  color: darkgreen;
+  
+}
+p{
+  font-display: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  font-family: Helvetica, sans-serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.details-image{
+  width:30vw;
+}
+.details-info{
+  font-size: 15pt;
+}
+
+#ContentPic{
+  width:10vw;
+  height: 15vh;
+  float: left;
+}
+#PageContentLeft{
+float: left;
+}
+#PageContentRight{
+  float: right;
+}
+
+.cardImage{
+  padding-right: 5vw;
+}
+.tabs{
+  background-color: green;
+}
+.back-to-result{
+  font-size: large;
+  background-color: green;
+  width:20vw;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.back-to-result :hover{
+  font-size: large;
+  background-color: darkgreen;
+  color: white;
+  width:20vw;
+  text-align: center;
+  text-decoration: none;
+}
+/*
+Footer
+*/
+.Footer {
+  margin-bottom: 0px;
+}
+#copyRight {
+  font-family: 'Aclonica-Regular';
+  position: fixed;
+  bottom: -15px;
+  width: 100vw;
+  background-color: grey;
+  color:white;
+  text-align: center;
+}
+#Sold{
+  color: red;
+  font-weight: bolder;
+}
+.PuppyPageLayout{
+display: flex;
+}
+
+#Available{
+  color: green;
+  font-weight: bolder;
+}
+.blinking{
+
+  animation: fadeIn 4.2s infinite;
+  
+}
+
+/* Mobile */
+@media only screen and (min-width:320px) and (max-width:558px) {
+  .PageContainer{
+    padding-right: 2vw;
+    padding-left: 2vw;
+    align-content: center;
+    margin-right: 15vw;
+    margin-left: -2vw;
+    margin-top: 15vh;
+    height: 80vh;
+    width: 95vw;
+  }
+  #puppySlideShow{
+    
+  }
+  .Carousel{
+    border-width: 1px;
+    border-color: green;
+    margin-left: 15vw;
+    margin-right: -15vw;
+    margin-bottom: 4vh;
+  }
+  
+  .headerImage{
+    width: 100vw;
+    align-content: center;
+    align-self: center;
+  }
+  #puppyIcon{
+    display: flex;
+    flex-direction: column;
+  }
+  #puppyIconInfo{
+    display: flex;
+    flex-direction: column;
+  }
+  .PuppyPageLayout{
+    display: inline;
+    
+    }
+  .PuppiesNavi{
+    position: relative;
+  }
+  .tabsnavi{
+    position: relative;
+  }
+  .ContactContainer{
+    margin-top: 15vh;
+    animation-name: slideup;
+    animation-duration: 2s;
+  }
+  /* #PageContent {
+    flex-direction: column;
+  } */
+  #PuppyHomeCard {
+    flex-direction: column;
+  }
+  .back-to-result{
+    font-size: large;
+    background-color: green;
+    width:20vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .PuppyPage{
+ 
+  }
+  #PageContent{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+
+}
+/* Tablet */
+@media only screen and (min-width:559px) and (max-width:900px)  {
+  .About{
+    position: absolute;
+    flex-direction: column;
+  }
+  #PageContent {
+    flex-direction: column;
+  }
+  .PuppyPageLayout{
+    flex-direction: column;
+    }
+  .back-to-result{
+    font-size: large;
+    background-color: green;
+    width:20vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .PageContent{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+  .PuppiesNavi{
+    position: top;
+    display: row;
+  }
+  .tabsnavi{
+    position: relative;
+  }
+  #PuppyHomeCard {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 901px) {
+  .About{
+    position: relative;
+    flex-direction: column;
+  }
+  #PuppyHomeCard {
+    
+  }
+  .PuppyPageLayout{
+    flex-direction: row;
+    }
+
+  #PageContent{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width:1200px) {
+  .About{
+    position: relative;
+    flex-direction: column;
+  }
+  .PuppyPageLayout{
+    flex-direction: row;
+    }
+}
+@keyframes slidein {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(100%, 0%, 0px);
+    
+}
+
+100% {
+  animation-duration: 1s;
+    transform: translate3d(0%, 0%, 0px);
+}
+} 
+
+@keyframes slideout {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(0%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(100%, 0%, 0px);
+}
+}
+
+@keyframes slideinright {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(-100%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+@keyframes slideinleft {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(100%, 0%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+
+@keyframes slidedown {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(-20%, -100%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}
+@keyframes slideup {
+  0% {
+    animation-duration: 1s;
+    transform: translate3d(0%, 100%, 0px );
+    
+}
+100% {
+  animation-duration: 1s;
+  transform: translate3d(0%, 0%, 0px);
+}
+}

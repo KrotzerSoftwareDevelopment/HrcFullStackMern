@@ -1,0 +1,156 @@
+
+
+
+
+/* body{
+  font: 1.6em Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+#root{
+  height: 100%;
+}
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  grid-template-columns:  1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100vh;
+} */
+/* .header{
+  grid-area: header;
+  background-color: #203040;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.header-links a{
+  color: #ffffff;
+}
+.main{
+  grid-area: main;
+}
+.footer{
+  grid-area: footer;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #808080;
+} */
+/* Home Screen */
+/* .puppies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60vh;
+  
+}
+.puppies li {
+  list-style-type: none;
+  padding: 0;
+  flex: 0 1 34rem;
+  margin: 1rem;
+  height: 20rem;
+  width: 40vw;
+  border-bottom: .1rem #c0c0c0 solid;
+} */
+/* .puppy{
+  border-color: darkgreen;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  text-align: center;
+} */
+/* .puppy-name{
+  font-size: 2rem;
+  
+}
+.ContactStyle{
+ 
+  margin-left: 10vw;
+  margin-right: 10vw;
+} */
+/* .puppy-gender{
+  font-size: 1.2rem;
+  color: #808080;
+}
+.puppy-price{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.puppy-image{
+  max-width: 20vw;
+
+}
+.puppyDetailsStyle{
+  border-style: solid;
+  border-color: darkgreen;
+  border-width: 1px;
+}
+/* Product Details */
+/* .details{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+} */
+/* .details-image {
+  flex: 2 1 60rem;
+}
+.details-image img{
+  max-width: 60rem;
+  widows:100%;
+}
+.details-info {
+  flex: 1 1 30rem;
+}
+.details-action {
+  flex: 1 1 30rem;
+}
+.details-info ul, .details-action ul {
+  list-style-type: none;
+  padding:0;
+}
+.details-info li, .details-action li {
+  margin-bottom: 1rem;
+}
+.back-to-result{
+  padding: 1rem;
+} */
+/*
+.details-action{
+  border: .1rem #880088 solid;
+  border-radius: 0.5rem;
+  background-color: #f8f8f8;
+  padding: 1rem;
+}
+.details-action ul li:last-child{
+  padding: 1rem;
+  border: .1rem #808080 solid;
+  border-radius: 0.5em;
+  cursor: pointer;
+} */
+/* .button:hover{
+  border: .1rem #404040 solid;
+}
+.button.primary{
+  background-color: gold;
+} */
